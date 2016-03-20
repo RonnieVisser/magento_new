@@ -1,0 +1,18 @@
+{
+  "minimum-stability":"dev",
+  "require":{
+    "phpunit/phpunit":"3.7.9",
+    "n98/magerun":"*",
+    "twig/twig":"1.11.2.*",
+    "fbrnc/aoe_templatehints":"dev-master"
+  },
+  "repositories":[
+    {
+      "type":"composer",
+      "url":"http://packages.firegento.com"
+    }
+  ],
+  "extra":{
+    "magento-root-dir":"./"
+  }
+}
